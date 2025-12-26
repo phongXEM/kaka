@@ -2,7 +2,6 @@ import Image from "next/image";
 
 // Client-side và Server-side
 const appName = process.env.NEXT_PUBLIC_APP_NAME;
-console.log(appName);
 // Chỉ Server-side (API routes, Server Components)
 const apiSecret = process.env.API_SECRET_KEY;
 export default function Home() {
@@ -61,7 +60,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Documentation v13
+            Documentation v20
           </a>
         </div>
       </main>
